@@ -1,0 +1,180 @@
+Lo de abajo se pone para hacer el RK4 despues de un salto
+ // factordeescala=(nvibracional+factordeescala)-4; ///nuevo factor de escala//  
+ nvibracional=4; ///Vuelve a tomar la posicion 4 que corresponde a la posicion donde se encuentra actualmente el sistema
+
+23
+../ResetCoefall/main/v=0/esque1-23.int
+ estado inicial :23 internamente dentro del programa :4 factor de escala=9
+Numero de corrida 700
+La funcion de onda 22 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529185
+La funcion de onda 21 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529185
+La funcion de onda 20 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529598
+La funcion de onda 19 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529748
+La funcion de onda 18 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529579
+La funcion de onda 17 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529241
+La funcion de onda 16 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.52898
+La funcion de onda 15 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.528941
+La funcion de onda 14 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529071
+La funcion de onda 13 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529209
+La funcion de onda 12 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529251
+La funcion de onda 11 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529214
+La funcion de onda 10 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529172
+La funcion de onda 9 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529162
+La funcion de onda 8 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529172
+La funcion de onda 7 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529179
+La funcion de onda 6 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529179
+La funcion de onda 5 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529178
+La funcion de onda 4 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529177
+La funcion de onda 3 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529177
+La funcion de onda 2 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529177
+La funcion de onda 1 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529177
+La funcion de onda 0 no esta normalizada, tienes que dividir por la raiz de este factor:= 0.529177
+ F.onda 22 normalizada a= 1
+ F.onda 21 normalizada a= 1
+ F.onda 20 normalizada a= 1
+ F.onda 19 normalizada a= 1
+ F.onda 18 normalizada a= 1
+ F.onda 17 normalizada a= 1
+ F.onda 16 normalizada a= 1
+ F.onda 15 normalizada a= 1
+ F.onda 14 normalizada a= 1
+ F.onda 13 normalizada a= 1
+ F.onda 12 normalizada a= 1
+ F.onda 11 normalizada a= 1
+ F.onda 10 normalizada a= 1
+ F.onda 9 normalizada a= 1
+ F.onda 8 normalizada a= 1
+ F.onda 7 normalizada a= 1
+ F.onda 6 normalizada a= 1
+ F.onda 5 normalizada a= 1
+ F.onda 4 normalizada a= 1
+ F.onda 3 normalizada a= 1
+ F.onda 2 normalizada a= 1
+ F.onda 1 normalizada a= 1
+ F.onda 0 normalizada a= 1
+ salto de 4 - 3 R=3.41157  Probabilidad de salto 0.00193664%
+prodown=1.93664e-05
+Se elige el estado:3
+densidad inicial 0.986359 densidad a la que salta 0.00685818
+salto desde 4 - 3
+momentoantes=3.37771
+ tiempo= 38.8649 nvibracional=4
+ nvibracionaldespues=3 internamente=12 nuevo momento=54.0169
+ RK4 debido al salto
+ salto de 4 - 3 R=3.41278  Probabilidad de salto 189.008%
+prodown=1.89008
+Se elige el estado:3
+densidad inicial 1.64573e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=54.0598
+ tiempo= 38.8653 nvibracional=4
+ nvibracionaldespues=3 internamente=11 nuevo momento=77.1371
+ RK4 debido al salto
+ salto de 4 - 3 R=3.4145  Probabilidad de salto 188.996%
+prodown=1.88996
+Se elige el estado:3
+densidad inicial 1.62259e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=77.1816
+ tiempo= 38.8657 nvibracional=4
+ nvibracionaldespues=3 internamente=10 nuevo momento=95.4271
+ RK4 debido al salto
+ salto de 4 - 3 R=3.41663  Probabilidad de salto 188.929%
+prodown=1.88929
+Se elige el estado:3
+densidad inicial 1.57852e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=95.4731
+ tiempo= 38.8661 nvibracional=4
+ nvibracionaldespues=3 internamente=9 nuevo momento=111.295
+ RK4 debido al salto
+ salto de 4 - 3 R=3.41912  Probabilidad de salto 188.81%
+prodown=1.8881
+Se elige el estado:3
+densidad inicial 1.51681e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=111.342
+ tiempo= 38.8665 nvibracional=4
+ nvibracionaldespues=3 internamente=8 nuevo momento=125.662
+ RK4 debido al salto
+ salto de 4 - 3 R=3.42192  Probabilidad de salto 188.649%
+prodown=1.88649
+Se elige el estado:3
+densidad inicial 1.4419e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=125.71
+ tiempo= 38.8669 nvibracional=4
+ nvibracionaldespues=3 internamente=7 nuevo momento=138.997
+ RK4 debido al salto
+ salto de 4 - 3 R=3.42502  Probabilidad de salto 188.455%
+prodown=1.88455
+Se elige el estado:3
+densidad inicial 1.35721e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=139.046
+ tiempo= 38.8673 nvibracional=4
+ nvibracionaldespues=3 internamente=6 nuevo momento=151.573
+ RK4 debido al salto
+ salto de 4 - 3 R=3.42841  Probabilidad de salto 188.227%
+prodown=1.88227
+Se elige el estado:3
+densidad inicial 1.26503e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=151.623
+ tiempo= 38.8677 nvibracional=4
+ nvibracionaldespues=3 internamente=5 nuevo momento=163.567
+ RK4 debido al salto
+ salto de 4 - 3 R=3.43206  Probabilidad de salto 187.964%
+prodown=1.87964
+Se elige el estado:3
+densidad inicial 1.16736e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=163.617
+ tiempo= 38.8681 nvibracional=4
+ nvibracionaldespues=3 internamente=4 nuevo momento=175.1
+ RK4 debido al salto
+ salto de 4 - 3 R=3.43597  Probabilidad de salto 187.666%
+prodown=1.87666
+Se elige el estado:3
+densidad inicial 1.06627e-08 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=175.151
+ tiempo= 38.8685 nvibracional=4
+ nvibracionaldespues=3 internamente=3 nuevo momento=186.259
+ RK4 debido al salto
+ salto de 4 - 3 R=3.44013  Probabilidad de salto 187.331%
+prodown=1.87331
+Se elige el estado:3
+densidad inicial 9.63681e-09 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=186.31
+ tiempo= 38.8689 nvibracional=4
+ nvibracionaldespues=3 internamente=2 nuevo momento=197.109
+ RK4 debido al salto
+ salto de 4 - 3 R=3.44453  Probabilidad de salto 186.958%
+prodown=1.86958
+Se elige el estado:3
+densidad inicial 8.61305e-09 densidad a la que salta 1
+salto desde 4 - 3
+momentoantes=197.16
+ tiempo= 38.8693 nvibracional=4
+ nvibracionaldespues=3 internamente=1 nuevo momento=207.7
+ RK4 debido al salto
+ salto de 4 - 3 R=3.44917  Probabilidad de salto 186.545%
+prodown=1.86545
+Se elige el estado:3
+densidad inicial 7.6061e-09 densidad a la que salta 0.999997
+salto desde 4 - 3
+momentoantes=207.751
+ tiempo= 38.8697 nvibracional=4
+ nvibracionaldespues=3 internamente=0 nuevo momento=218.071
+ RK4 debido al salto
+ salto de 4 - 3 R=3.45404  Probabilidad de salto 206.942%
+prodown=2.06942
+Se elige el estado:3
+densidad inicial 1.72053e-06 densidad a la que salta 0.999995
+salto desde 4 - 3
+momentoantes=218.121
+ tiempo= 38.8701 nvibracional=4
+ nvibracionaldespues=3 internamente=-1 nuevo momento=-nan
+ RK4 debido al salto

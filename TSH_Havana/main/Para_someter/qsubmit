@@ -1,0 +1,46 @@
+#!/bin/bash
+
+path=$1 # es la direccion, por ejemplo ../../main/v=0/esque1-16.int 
+nv=$2 # es el nivel vibracional de partida, por ejemplo 16,....,29
+pathresult=$3 # es la direccion de salida donde guardo mis resultados
+#echo "path-> "$path, "nivel de partida-> "$nv
+
+#$ -r y
+
+#$ -cwd
+
+### Identificativo del nombre del calculo sometido (puede ser cambiado a gusto)
+#$ -N nv
+
+### Identificativo del nombre de la cola de sumision (no cambiar)
+#$ -q all.q
+
+### Gestor de shell que empleara el script (no cambiar)
+#$ -S /bin/bash
+
+### Moverse a la carpeta de trabajo donde esta el programa a ejecutar (variante sin exceso de escritura en disco duro) (no cambiar)
+cd $SGE_O_WORKDIR
+
+### Copiando datos necesarios para el calculo y movimiento al directorio temporal
+#cp * $TMPDIR
+#cd $TMPDIR
+
+### Programa a ejecutar y salida estandar a un fichero de consulta
+### (puede cambiarse el nombre del ejecutable [a.out] y el nombre de fichero que almacena la salida estandar [screen.out])
+
+source /share/apps/intel/2015.1/bin/compilervars.sh intel64
+
+partida=`cat final ` #estas comillas indica que lo que esta dentro es una ejecucion
+
+for ((i=partida;i<5000;i++)) 
+do
+
+./compila$nv.out $path $nv $i >salida$nv 
+
+done
+
+cp Tiempo_disociacion.txt Disangular Erotacional Canal_disociacion.txt Erest Poblaciones $pathresult
+
+### Copia de los resultados a la carpeta original
+#cp * $SGE_O_WORKDIR
+

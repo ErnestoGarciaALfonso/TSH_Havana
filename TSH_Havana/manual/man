@@ -1,0 +1,72 @@
+This is a manual which we explain how works the main program. The program only works for triatomic systems 
+
+We divide it in several stages
+
+😎️ Stage 1: 
+ 
+We need files called fondas which only \phi(r) values are saved therein. For that, we need to do a grid and to use it for all
+   
+    for exmample: We consider 2 \AA as started point of the grid and 288 points, it is must happens for all fondas
+    
+😎️ Stage 2:
+
+Initial conditions are saved in the file "esque1-#nv.int" where #nv stands for vibrational level. In that file The data is saved as follow:
+
+**************************************
+r R \theta pr pR ptheta total energy
+**************************************
+
+We only care R,\theta,pR,ptheta for this program
+
+
+😎️ Stage 3:
+
+There is a file called "parametros_iniciales" which it is our input file, its struct is presented in this way
+           -mA (mass of the rare gas)
+           -mB (mass of the atom 1 of the diatom)
+           -mC (mass of the atom 2 of the diatom)
+           -hbar (Planck' const over 2pi)
+           -number of fondas to take in account during all the simulation
+           -the number of the firts fonda 
+           -number of points of each fonda (every fonda has the same amount of points) (Be careful with the initial conditions, they must have the same configurations)
+           -step of the fonda  (Be careful with the initial conditions, they must have the same configurations)
+           -started point of the fonda
+           -number of level to take into acoount 
+                  for example:  If 0 it considers all levels 
+                                If 3 it considers only 3 level (v-1,v,v+1)
+                                If 7 it considers only 7 level (v-3,v-2,v-1,v,v+1,v+2,v+3)
+           -maximum propagation time
+           -number of iterations 
+           -dissociation coordinate
+           -vibrational energy from isolated diatom, for each vibrational level taken into account 
+           
+
+
+😎️ Stage 4:
+
+To compile the program we need to do it as follow:
+
+./a.out (Address)esque1-#nv.int  #nv  #iterations  >outputfile
+
+ #iterations stands for number of iterations
+ 
+ 😎️ Stage 5:
+
+When the program ends we obtained 6 output files
+
+        -"Canal_disociacion.txt" output channel for every simulations
+        -"Disangular" the value of j when the system has reached the dissociation
+        -"Erotacional" rotational energy from diatom when the system has reached the dissociation
+        -"Erest" translational energy of the atom A 
+        -"Tiempo_disociacion.txt" life time for every simulation
+        -"Poblaciones" it indicates us how was the behaviour of the sytem for 0.5 ps
+
+ 😎️ Stage 6:        
+ 
+I only wish you luck with your work and I hope that this manual and this program is useful
+
+Thanks you for all!!!!!!!!!!!!!!
+
+Now is time to work!!
+
+
